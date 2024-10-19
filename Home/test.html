@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeraUniLead</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/x-icon" href="/images/wow.png" >
+    
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">TeraUniLead</a></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#About">Our Program</a></li>
+                <li><a href="#Members">About</a></li>
+                <!-- Updated Sign Up button -->
+                <li><a href="javascript:void(0);" class="tbl-biru" onclick="openPopup()">Sign Up</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <!--Bagian Home-->
+        <section id="home">
+            <img src="/images/envi.png" alt="Environment" >
+            <div class="kolom">
+                <p class="deskripsi">"Protect The Planet, Protect Out Future"</p>
+                <h2>TeraUniLead</h2>
+                <p>Utilizing SekoGas (Sekam Kotoran gas): Rice Husk and Animal Manure for Household Biogas Production as a sustainable energy solution
+                </p>
+                <p><a href="/images/SeKoGas.pdf" class="tbl-biru">Learn more</a></p>
+            </div>
+        </section>
+
+        <!--Bagian About-->
+        <section id="About">
+            <div class="kolom">
+                <p class="deskripsi2">Advantages</p>
+                <p class="deskripsi">The Potential of Rice Straw for Biogas Production</p>
+                <ul>
+                    <li>Utilizes raw materials from a combination system of husks, rice, and animal waste.
+                    </li>
+                    <li>Does not cause waste because the output besides gas, namely husk solids, can be used as plant fertilizer
+                    </li>
+                    <li>Has a durability of up to 3 months</li>
+                    <p><a href="" class="tbl-biru">Our Youtube video</a> </p>
+                </ul>
+                
+            </div>
+            
+            <img src="/images/introd.png" alt="SeKoGas" >
+            
+        </section>
+        <section>
+            <div class="kolom">
+                <p class="deskripsi2">VISSION & MISSION</p>
+                <p class="deskripsi">The Potential of Rice Straw for Biogas Production</p>
+                <ul>
+                    <li>Optimize biogas production efficiency by combining rice husk and animal manure</li>
+                    <li>Reducing dependence on LPG, minimizing air pollution, and creating an eco-friendly circular economy.</li>
+                    <li>Develop household-scale biogas technology using Solid State Anaerobic Digestion (SS-AD)</li>
+                    <li>Promote public awareness of renewable energy use and sustainable waste management</li>
+                </ul>
+        </section>
+        <section>
+            <img src="/images/Solution.png" alt="Research method" width="100%" height="100%">
+        </section>
+        <section>
+            <img src="/images/REASONWHY.png" alt="Potention" width="100%" height="100%">
+        </section>
+        <section>
+            <div class="mid">
+                <div class="mid">
+                    <p class="deskripsi">Our Top</p>
+                </div>
+                <div class="partnership-list"></div>
+                <div class="List-partner">
+                    <img src="/images/partnership.png" alt="Partnerships" width="100%" height="100%">
+                </div>
+                
+            </div>
+        </section>
+    </div>
+    <!--Bagian Join Member-->
+    <section id="Members">
+        <div class="kolom">
+            <p class="deskripsi2"></p>
+
+        </div>
+    </section>
+    <div id="contact">
+        <div class="wrapper">
+            <div class="footer">
+                <div class="footer-section">
+                    <h3>TeraUniLeader</h3>
+                    <p>Tera Unity Leader | Environment 1 | GYIS 2024 </p>
+                    <p>🍃 Part of Global Youth Innovation Summit #3 🇸🇬🇲🇾 (@pemuda.mendunia)</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quotes</h3>
+                    <p>🍃 Utilizing SekoGas | "Protect The Planet, Protect Our Future"</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Social Media</h3>
+                    <p><a href="https://www.instagram.com/teraunilead?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="tbl-biru">Instagram</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="Copyright">
+        <div class="wrapper">
+            &copy; 2024. <b>TeraUniLead. </b> All Rights Reserved.
+        </div>
+    </div>
+
+    <!-- The Popup HTML -->
+    <div class="popup-container" id="popup-container">
+        <div class="popup">
+            <h2>Sign Up</h2>
+            <form>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Log In</button>
+                <button type="button" onclick="closePopup()">Close</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function openPopup() {
+            document.getElementById("popup-container").style.display = "flex";
+        }
+
+        function closePopup() {
+            document.getElementById("popup-container").style.display = "none";
+        }
+    </script>
+</body>
+</html>
